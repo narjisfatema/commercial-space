@@ -1,203 +1,516 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      Premium Commercial Office Space for Sale | South Bombay, Mumbai
+    </title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Premium commercial office space for sale in South Bombay, Mumbai. Prime location near Masjid Bunder Railway Station. Modern amenities, spacious interiors. Contact us today!"
+    />
+    <meta
+      name="keywords"
+      content="commercial office space, Mumbai, real estate, for sale, business premises, prime location, South Bombay, Masjid Bunder"
+    />
+    <meta
+      property="og:title"
+      content="Premium Commercial Office Space - South Bombay"
+    />
+    <meta
+      property="og:description"
+      content="Discover your perfect commercial office space in Mumbai's prime business hub"
+    />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="assets/icons/favicon.png" type="image/x-icon" />
+  </head>
 
-<head>
-    <title>Commercial Office Space for sale | Mumbai</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Find the best commercial office spaces for sale in Mumbai. Explore prime locations and competitive prices. Contact us for more details!">
-    <meta name="keywords"
-        content="commercial office space, Mumbai, real estate, for sale, business premises, prime location">
-    <link rel="stylesheet" href="styles.css">
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <div class="navbar-container">
+        <a href="#" class="navbar-logo">Prime SoBo Workspace</a>
+        <ul class="nav-menu">
+          <li><a href="#overview" class="nav-link">Overview</a></li>
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#amenities" class="nav-link">Amenities</a></li>
+          <li>
+            <a href="#booking-visit" class="nav-link cta-button"
+              >Schedule a Property Tour</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="overview">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Ready-to-Move Office Space</h1>
+            <p class="hero-subtitle">
+              in South Bombay's most coveted business hub
+            </p>
+            <p class="hero-description">
+              Looking to buy an office or commercial space in South Bombay at a reasonable budget ?<br />
+              Own a perfect commercial office in Mumbai's prime location with
+              modern amenities, spacious interiors, and excellent connectivity.
+            </p>
+            <a href="#features" class="cta-primary"
+              >Know more </a
+            >
+          </div>
+          <div class="hero-image">
+            <img
+              src="assets/images/pic-1.jpeg"
+              alt="Office Space in South Bombay"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Property Features Section -->
+    <section class="features-section" id="features">
+      <div class="section-container">
+        <h2>Why Choose This Property?</h2>
+        <p class="section-subtitle">
+          Previously served as front office of a Chartered Accountant's firm, the space offers the following.
+        </p>
+
+        <div class="features-grid">
+          <div class="feature-card" >
+            <div class="feature-icon">📍</div>
+            <h3>Prime Commercial Location</h3>
+            <p>
+              Located in the commercial hub of South Bombay - Masjid Bunder,
+              offering unparalleled accessibility to major business centers and
+              clientele.
+            </p>
+          </div>
+
+          <div class="feature-card" >
+            <div class="feature-icon">📐</div>
+            <h3>Spacious Interiors</h3>
+            <p>
+              Well-designed spacious interiors that accommodate various business
+              operations with flexible layout options for your specific needs.
+            </p>
+          </div>
+
+          <div class="feature-card" >
+            <div class="feature-icon">✨</div>
+            <h3>Modern Amenities</h3>
+            <p>
+              Equipped with cutting-edge modern amenities including elevators,
+              power backup, water supply, and climate control systems.
+            </p>
+          </div>
+
+          <div class="feature-card" >
+            <div class="feature-icon">🚗</div>
+            <h3>Easy Access & Connectivity</h3>
+            <p>
+              Provides seamless access to transportation networks and nearby
+              facilities including metro, roads, and parking solutions.
+            </p>
+          </div>
+
+          <div class="feature-card" >
+            <div class="feature-icon">🚆</div>
+            <h3>Near Railway Station</h3>
+            <p>
+              Just a 2-minute walk from Masjid Bunder Railway Station, making
+              commuting effortless for clients and employees.
+            </p>
+          </div>
+
+          <div class="feature-card" >
+            <div class="feature-icon">🤝</div>
+            <h3>Rich Business Ecosystem</h3>
+            <p>
+              Surrounded by a vibrant ecosystem of traders, business
+              communities, and professional networks for collaboration and
+              growth.
+            </p>
+          </div>
+
+          <div class="feature-card" >
+            <div class="feature-icon">🏛️</div>
+            <h3>Strategic Proximity</h3>
+            <p>
+              Close proximity to CST, Crawford Market, Fort area, Mumbai Port,
+              and major shipping companies - ideal for import-export businesses.
+            </p>
+          </div>
+
+          <div class="feature-card" >
+            <div class="feature-icon">🏢</div>
+            <h3>Professional Surroundings</h3>
+            <p>
+              Surrounded by established banks, premium restaurants, business
+              centers, and corporate offices ensuring a professional
+              environment.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Gallery Section -->
+    <section class="gallery-section" id="gallery">
+      <div class="section-container">
+        <h2>Property Gallery</h2>
+        <p class="section-subtitle">
+          View the stunning interiors of our office space
+        </p>
+
+        <div class="gallery-grid">
+          <div
+            class="gallery-item"
+            onclick="
+              openModal('assets/images/pic-1.jpeg', 'Office Space View 1')
+            "
+          >
+            <img
+              src="assets/images/pic-1.jpeg"
+              alt="Office Space Interior - View 1"
+              loading="lazy"
+            />
+            <div class="gallery-overlay">
+              <span class="zoom-icon">🔍</span>
+            </div>
+          </div>
+          <div
+            class="gallery-item"
+            onclick="
+              openModal('assets/images/pic-2.jpeg', 'Office Space View 2')
+            "
+          >
+            <img
+              src="assets/images/pic-2.jpeg"
+              alt="Office Space Interior - View 2"
+              loading="lazy"
+            />
+            <div class="gallery-overlay">
+              <span class="zoom-icon">🔍</span>
+            </div>
+          </div>
+          <div
+            class="gallery-item"
+            onclick="
+              openModal('assets/images/pic-3.jpeg', 'Office Space View 3')
+            "
+          >
+            <img
+              src="assets/images/pic-3.jpeg"
+              alt="Office Space Interior - View 3"
+              loading="lazy"
+            />
+            <div class="gallery-overlay">
+              <span class="zoom-icon">🔍</span>
+            </div>
+          </div>
+          <div
+            class="gallery-item"
+            onclick="
+              openModal('assets/images/pic-4.jpeg', 'Office Space View 4')
+            "
+          >
+            <img
+              src="assets/images/pic-4.jpeg"
+              alt="Office Space Interior - View 4"
+              loading="lazy"
+            />
+            <div class="gallery-overlay">
+              <span class="zoom-icon">🔍</span>
+            </div>
+          </div>
+          <div
+            class="gallery-item"
+            onclick="
+              openModal('assets/images/pic-5.jpeg', 'Office Space View 5')
+            "
+          >
+            <img
+              src="assets/images/pic-5.jpeg"
+              alt="Office Space Interior - View 5"
+              loading="lazy"
+            />
+            <div class="gallery-overlay">
+              <span class="zoom-icon">🔍</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal for Gallery -->
+    <div id="imageModal" class="modal" onclick="closeModal()">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img class="modal-content" id="modalImage" alt="Modal Image" />
+      <div id="caption" class="caption"></div>
+    </div>
+
+    <!-- Amenities Section -->
+    <section class="amenities-section" id="amenities">
+      <div class="section-container">
+        <h2>Modern Amenities</h2>
+
+        <div class="amenities-grid">
+          <div class="amenity-item" >
+            <div class="amenity-icon">🛗</div>
+            <h4>Elevator</h4>
+            <p>Modern high-speed elevators for efficient mobility</p>
+          </div>
+
+          <div class="amenity-item" >
+            <div class="amenity-icon">⚡</div>
+            <h4>Power Supply</h4>
+            <p>Reliable power backup with 24/7 electricity</p>
+          </div>
+
+          <div class="amenity-item" >
+            <div class="amenity-icon">💧</div>
+            <h4>Water Supply</h4>
+            <p>Continuous water availability with filtration</p>
+          </div>
+
+          <div class="amenity-item" >
+            <div class="amenity-icon">❄️</div>
+            <h4>Air Conditioning</h4>
+            <p>Central AC system for optimal climate control</p>
+          </div>
+
+          <div class="amenity-item" >
+            <div class="amenity-icon">🗄️</div>
+            <h4>Storage Solutions</h4>
+            <p>Wall cabinets for secure document storage</p>
+          </div>
+
+          <div class="amenity-item" >
+            <div class="amenity-icon">🚻</div>
+            <h4>Modern Washroom</h4>
+            <p>Hygienic facilities with premium fixtures</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location & Map Section -->
+    <section class="location-section">
+      <div class="section-container">
+        <h2>Location</h2>
+        <p class="section-subtitle">
+          Strategically positioned in South Bombay's business hub at Masjid Bunder
+        </p>
+        <div class="location-content">
+          <div class="map-container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.9343913717746!2d72.8298!3d19.0176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6ddd0f0f0f1%3A0xf0f0f0f0f0f0f0f0!2sMasjid%20Bunder%2C%20Mumbai!5e0!3m2!1sen!2sin!4v"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Office Location - Masjid Bunder West, Mumbai"
+            ></iframe>
+          </div>
+          <div class="location-info">
+            <p><strong>Connectivity:</strong></p>
+            <ul>
+              <li>2 minutes from Masjid Bunder Railway Station</li>
+              <li>Close to Fort area and business district</li>
+              <li>Near CST and Crawford Market</li>
+              <li>Adjacent to Mumbai Port and shipping companies</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Booking Visit Section -->
+    <section class="booking-section" id="booking-visit">
+      <div class="section-container booking-container">
+        <div class="booking-info">
+          <h2>Schedule Your Property Tour</h2>
+          <p>
+            Interested in viewing our office space? Fill out the form below to
+            schedule a convenient time for your visit. Our team will confirm
+            your appointment shortly.
+          </p>
+
+          <div class="booking-features">
+            <div class="booking-feature">
+              <span class="feature-icon">✓</span>
+              <div>
+                <h4>Zero brokerage hassle, deal directly to save time and negotiate clearly</h4>
+                <p></p>
+              </div>
+            </div>
+            <div class="booking-feature">
+              <span class="feature-icon">✓</span>
+              <div>
+                <h4>Quick Response</h4>
+              </div>
+            </div>
+            <div class="booking-feature">
+              <span class="feature-icon">✓</span>
+              <div>
+                <h4>Flexible Scheduling</h4>
+              </div>
+            </div>
+            <div class="booking-feature">
+              <span class="feature-icon">✓</span>
+              <div>
+                <h4>Complete Walkthrough</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form id="form" action="https://formspree.io/f/xwpqkrwq" method="post">
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              autocomplete="name"
+              placeholder="Your full name"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              required
+              autocomplete="email"
+              placeholder="your.email@example.com"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone Number *</label>
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              required
+              autocomplete="tel"
+              placeholder="Your phone number"
+            />
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="date">Preferred Visit Date *</label>
+              <input
+                type="date"
+                id="date"
+                name="date"
+                required
+                autocomplete="off"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="time">Preferred Visit Time *</label>
+              <select id="time" name="time" required>
+                <option value="" disabled selected>Select a time...</option>
+                <option value="12:00 pm">12:00 pm</option>
+                <option value="12:30 pm">12:30 pm</option>
+                <option value="2:00 pm">2:00 pm</option>
+                <option value="2:30 pm">2:30 pm</option>
+                <option value="3:00 pm">3:00 pm</option>
+                <option value="3:30 pm">3:30 pm</option>
+                <option value="4:00 pm">4:00 pm</option>
+                <option value="4:30 pm">4:30 pm</option>
+                <option value="5:00 pm">5:00 pm</option>
+                <option value="5:30 pm">5:30 pm</option>
+                <option value="6:00 pm">6:00 pm</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message / Special Requirements</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Tell us about your space requirements or any questions you have..."
+            ></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn">Schedule My Visit</button>
+          <div id="formResponse" class="form-response" role="alert"></div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+      <div class="footer-container">
+
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#amenities">Amenities</a></li>
+            <li><a href="#booking-visit">Schedule Visit</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>About This Property</h3>
+          <p>Previously served as front office of a Chartered Accountant's firm.</p>
+        </div>
+
+        <div class="footer-section contact-section" id="contact">
+          <h3>Get In Touch</h3>
+          <div class="contact-methods">
+            <a
+              href="https://wa.me/918433621645"
+              class="contact-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="contact-icon">💬</span> WhatsApp
+            </a>
+            <a href="mailto:nu272000@gmail.com" class="contact-link">
+              <span class="contact-icon">📧</span> Email
+            </a>
+            <a href="tel:+918433621645" class="contact-link">
+              <span class="contact-icon">📞</span> Call Us
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h3>Office Hours</h3>
+          <p>
+            Monday - Friday: 9:00 AM - 6:00 pm<br />
+            Saturday: 10:00 AM - 4:00 pm<br />
+            Sunday: Closed
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Commercial Office Space. All rights reserved.</p>
+      </div>
+    </footer>
+
     <script src="script.js" defer></script>
-    <link rel="icon" href="assets/icons/favicon.png" type="image/x-icon">
-</head>
-
-<body>
-
-    <section class="hero-section">
-        <div class="hero-left">
-            <div class="hero-text">
-                <h1>COMMERCIAL OFFICE SPACE</h1>
-                <p>Looking to buy office space in South Bombay at a reasonable budget ?
-                Discover the perfect commercial office space in Mumbai's prime location.</p>
-            </div>
-
-            <div class="hero-image">
-                <img src="assets/images/pic-1.jpeg" alt="Office Space">
-            </div>
-
-        </div>
-
-        <div class="hero-right">
-            <div class="nav-menu">
-                <div><a href="#about">About</a></div>
-                <div><a href="#amenities">Amenities</a></div>
-                <div><a href="#booking-visit">Schedule a Visit</a></div>
-                <div><a href="#about">Office Space</a></div>
-                <div><a href="#contact">Contact Us</a></div>
-            </div>
-        </div>
-    </section>
-
-    <section class="about" id="about">
-        <h2>About this property</h2>
-        <div class="about-grid">
-            <div class="individual-card-content" alt="card-1">
-                <img src="">
-                <h3>Prime Commercial Location</h3>
-                <p>Located in commercial hub of South Bombay - Masjid Bunder, offering a prime location for
-                    businesses/</p>
-            </div>
-
-            <div class="individual-card-content" alt="card-2">
-                <img src="">
-                <h3>Spacious Interiors</h3>
-                <p>Spacious interiors designed to accommodate various business operations</p>
-            </div>
-
-            <div class="individual-card-content" alt="card-3">
-                <img src="">
-                <h3>Modern Amenities</h3>
-                <p>Features modern amenities to enhance productivity and comfort</p>
-            </div>
-
-            <div class="individual-card-content" alt="card-4">
-                <img src="">
-                <h3>Easy Access</h3>
-                <p>Provides easy access to transportation and nearby facilities</p>
-            </div>
-
-            <div class="individual-card-content" alt="card-5">
-                <img src="">
-                <h3>Nearby Railway Station</h3>
-                <p>Just a 2-minute walk from Masjid Bunder Railway Station</p>
-            </div>
-
-            <div class="individual-card-content" alt="card-6">
-                <img src="">
-                <h3>Rich Ecosystem</h3>
-                <p>Surrounded by a rich ecosystem of traders and business communities</p>
-            </div>
-
-            <div class="individual-card-content" alt="card-7">
-                <img src="">
-                <h3>Close proximity</h3>
-                <p>Nearby to CST, Crawford Market, Fort area, Mumbai Port & shipping companies</p>
-            </div>
-
-            <div class="individual-card-content" alt="card-8">
-                <img src="">
-                <h3>Surroundings</h3>
-                <p>Surrounded by banks, restaurants, and business centers</p>
-            </div>
-        </div>
-
-    <div class="photos-container">
-        <div class="photos">
-            <div class="images">
-                <img src="assets/images/pic-1.jpeg" alt="Office Space Photo 1">
-            </div>
-            <div class="images">
-                <img src="assets/images/pic-2.jpeg" alt="Office Space Photo 2">
-            </div>
-                    <div class="images">
-                        <img src="assets/images/pic-3.jpeg" alt="Office Space Photo 3">
-                    </div>
-                    <div class="images">
-                        <img src="assets/images/pic-4.jpeg" alt="Office Space Photo 4">
-                    </div>
-
-                    <div class="images">
-                        <img src="assets/images/pic-5.jpeg" alt="Office Space Photo 5">
-                    </div>
-            </div>
-        </div>
-    </section>
-
-
-        <section class="amenities-container" id="amenities-container">
-            <h2>Amenities</h2>
-            <div class="amenities" id="amenities">
-                <div class="individual-amenities">
-                    <img src="assets/icons/elevator.png">
-                    <p>Elevator</p>
-                </div>
-
-                <div class="individual-amenities">
-                    <img src="assets/icons/power-supply.png" alt="Power Supply">
-                    <p>Unlimited Power Supply</p>
-                </div>
-
-                <div class="individual-amenities">
-                    <img src="assets/icons/water-supply.png" alt="Water Supply">
-                    <p>Water supply</p>
-                </div>
-
-                <div class="individual-amenities">
-                    <img src="assets/icons/air-conditioner.png" alt="Air Conditioning">
-                    <p>Air Conditioning</p>
-                </div>
-
-                <div class="individual-amenities">
-                    <img src="assets/icons/cabinet.png" alt="Cabinets">
-                    <p>2 Wall Cabinets</p>
-                </div>
-
-                <div class="individual-amenities">
-                    <img src="assets/icons/washroom.png" alt="Washroom">
-                    <p>Washroom</p>
-                </div>
-
-
-            </div>
-        </section>
-
-        <section class="booking-visit" id="booking-visit">
-            <h2>Book a Visit</h2>
-            <p>Interested in visiting our property? Fill out the form below to schedule a visit.</p>
-            <form id="form" action="https://formspree.io/f/xwpqkrwq" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required autocomplete="off">
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required autocomplete="off">
-
-                <label for="phone">Phone:</label>
-                <input type="tel" id="phone" name="phone" required autocomplete="off">
-
-                <label for="date">Preferred Visit Date:</label>
-                <input type="date" id="date" name="date" required autocomplete="off">
-
-                <label for="time">Preferred Visit Time:</label>
-                <input type="time" id="time" name="time" required autocomplete="off">
-
-                <label for="message">Any queries ?</label>
-                <textarea id="message" name="message" rows="4" placeholder="Tell us about your space requirements..."
-                    autocomplete="off"></textarea>
-
-                <button type="submit">Schedule a Visit</button>
-
-                <div id="formResponse"></div>
-            </form>
-        </section>
-
-        <footer>
-            <div class="footer-content">
-
-                <div class="contact" id="contact">
-                    <h3>To know more details , Contact :</h3>
-                    <a href="https://wa.me/918433621645">WhatsApp</a>
-                    <a href="https://mail.google.com/mail/u/nu272000@gmail.com">Email</a>
-                </div>
-
-                <div class="copyright">
-                    <p>&copy; 2025 All rights reserved.</p>
-                </div>
-
-            </div>
-        </footer>
-</body>
-
+  </body>
 </html>
