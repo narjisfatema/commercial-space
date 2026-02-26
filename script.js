@@ -134,3 +134,21 @@ document.querySelectorAll('.feature-card, .amenity-item, .testimonial-card, .spe
   el.style.opacity = '0';
   observer.observe(el);
 });
+
+ const menuToggle = document.querySelector('#mobile-menu');
+      const navMenu = document.querySelector('.nav-menu');
+      const navLinks = document.querySelectorAll('.nav-link');
+
+      // Toggle mobile menu open/close
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('is-active');
+        navMenu.classList.toggle('active');
+      });
+
+      // Close mobile menu when a link is clicked
+      navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          menuToggle.classList.remove('is-active');
+          navMenu.classList.remove('active');
+        });
+      });
